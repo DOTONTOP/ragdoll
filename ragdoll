@@ -50,7 +50,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:connect(function()
-	if TextBox.Text == "dot" then
+	if TextBox.Text == "arab top" then
 		print("correct")
 		Frame.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DOTONTOP/hat-script-1/main/hat%20script%201"))()
